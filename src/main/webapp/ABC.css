@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+html,body {
+	padding: 0px;
+	margin: 0px;
+}
+
+html,body {
+	height: 100%;
+	overflow: hidden;
+}
+
+#rdp-header {
+	background: url("img/rdp-hd-bg.gif") repeat-x scroll 0 50% #1E4176;
+	border: 0 none;
+	padding-left: 3px;
+}
+
+#rdp-theme {
+	float: right;
+	padding-right: 8px;
+	padding-top: 5px;
+	position: relative;
+}
+
+#rdp-title {
+	color: white;
+	font-family: tahoma,arial,verdana,sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 6px 0 8px 6px;
+	text-transform: capitalize;
+}
+
+#rdp-sub-title {
+	color: white;
+	font-family: tahoma,arial,verdana,sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.rdp-plain-panel-header {
+	background-image: none;
+	border-top: 1px solid rgb(153, 187, 232);
+}
